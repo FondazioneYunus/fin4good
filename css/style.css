@@ -1297,3 +1297,6 @@ body.hero-past .mission-main{
   color: rgba(0,0,0,.66);
   line-height: 1.55;
 }
+.hero-inner {
+  padding-bottom: 2rem;
+}
