@@ -40,7 +40,7 @@
           <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
           <li class="nav-item"><a class="nav-link" href="#library">Library</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-
+<li class="nav-item"><a class="nav-link" href="#survey">Survey</a></li>
           <li class="nav-item ms-lg-2">
             <a class="btn btn-primary btn-sm" href="#newsletter">Stay Updated</a>
           </li>
@@ -164,7 +164,49 @@
   </div><!-- /container -->
 </section>
 
+<!-- SURVEY HIGHLIGHT -->
+<section id="survey" class="py-6 section-white">
+  <div class="container">
+    <div class="survey-highlight">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <div class="survey-highlight__badge">
+            <i class="bi bi-chat-square-text me-2" aria-hidden="true"></i>
+            Fin4Good Survey
+          </div>
 
+          <h2 class="survey-highlight__title mt-3 mb-2">
+            Help us shape the project with your feedback
+          </h2>
+
+          <p class="survey-highlight__text mb-0">
+            We are collecting insights from students, educators, and stakeholders to improve
+            our resources, events, and learning tools on microfinance and the social economy.
+            Your input helps us build something more useful and impactful.
+          </p>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="survey-highlight__cta-box">
+            <p class="small text-muted mb-2">Takes only a few minutes</p>
+            <a
+              href="https://forms.office.com/pages/responsepage.aspx?id=-Uz_McEF3kiNgyHS2xBm516FLHat1yFEv4cWs5AJgLlUNjlWNjBUOTUwQU5ORElNUE40VlcxVzNQSS4u&route=shorturl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary btn-lg w-100"
+            >
+              <i class="bi bi-box-arrow-up-right me-2" aria-hidden="true"></i>
+              Take the survey
+            </a>
+            <p class="survey-highlight__note mt-2 mb-0">
+              Your responses are valuable for the next project steps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- WHAT WE DO -->
 <!-- WHAT WE DO (Work Packages) -->
@@ -965,7 +1007,7 @@
 
   <script>
     // Active section highlighting for navbar
-    const sectionIds = ["we-are","what-we-do","news","events","library","contact","newsletter"];
+    const sectionIds = ["we-are","survey","what-we-do","news","events","library","contact","newsletter"];
     const navLinks = new Map(
       Array.from(document.querySelectorAll('.navbar a.nav-link'))
         .map(a => [a.getAttribute('href')?.replace('#',''), a])
