@@ -1,0 +1,13 @@
+content:
+  - name: file_sito
+    label: I miei file HTML
+    type: collection
+    path: .        # Cerca i file nella cartella principale
+    extension: html # Mostra solo i file che finiscono in .html
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+      - name: body
+        label: Contenuto Pagina
+        type: rich-text
