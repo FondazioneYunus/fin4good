@@ -480,7 +480,7 @@ body { color: var(--f4g-slate); }
   overflow: hidden;
 }
 .brand-logo{
-  height: auto;
+  height: 100px;
   width: auto;
   display: block;
 }
