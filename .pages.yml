@@ -1,13 +1,40 @@
 content:
-  - name: pagine
-    label: Tutte le Pagine
-    type: collection
-    path: .        # Cerca i file nella cartella principale
-    extension: html # Mostra solo i file .html
+  - name: home
+    label: Home Page (index)
+    type: file
+    path: index.html
     fields:
-      - name: title
-        label: Titolo (opzionale)
-        type: string
       - name: body
-        label: Contenuto Pagina
+        type: rich-text
+
+  - name: about
+    label: About Us
+    type: file
+    path: about.html
+    fields:
+      - name: body
+        type: rich-text
+
+  - name: mission
+    label: Mission
+    type: file
+    path: mission.html
+    fields:
+      - name: body
+        type: rich-text
+
+  - name: partners
+    label: Partners
+    type: file
+    path: partners.html
+    fields:
+      - name: body
+        type: rich-text
+
+  - name: work_packages
+    label: Work Packages
+    type: file
+    path: work-packages.html
+    fields:
+      - name: body
         type: rich-text
