@@ -480,10 +480,9 @@ body { color: var(--f4g-slate); }
   overflow: hidden;
 }
 .brand-logo{
-  height: 210px;
+  height: auto;
   width: auto;
   display: block;
-  transform: translateY(10px);
 }
 @media (max-width: 576px){
   .brand-box{ height: 58px; width: 200px; }
