@@ -477,7 +477,7 @@ body { color: var(--f4g-slate); }
 }
 
 .brand-box{
-  height: 80px;
+  height: 150px;
   width: auto;
   display: flex;
   align-items: center;
