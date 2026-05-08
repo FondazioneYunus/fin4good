@@ -477,7 +477,7 @@ body { color: var(--f4g-slate); }
 }
 
 .brand-box{
-  height: 72px;
+  height: 80px;
   width: auto;
   display: flex;
   align-items: center;
@@ -492,7 +492,7 @@ object-fit: contain;
 }
 
 @media (max-width: 576px){
-  .brand-box{ height: 50px; width: auto; }
+  .brand-box{ height: 55px; width: auto; }
   .brand-logo{ height: 100%; transform: none}
 }
 /* --- Hero tiles band background --- */
