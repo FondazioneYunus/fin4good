@@ -471,22 +471,29 @@ body { color: var(--f4g-slate); }
 }
 
 /* Brand logo (keep big, stable) */
-.navbar{ padding-top: .6rem; padding-bottom: .6rem; }
+.navbar{ 
+   padding-top: .6rem; 
+   padding-bottom: .6rem; 
+}
+
 .brand-box{
   height: 72px;
-  width: 250px;
+  width: auto;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
+
 .brand-logo{
-  height: 100px;
+  height: 100%;
   width: auto;
   display: block;
+object-fit: contain;
 }
+
 @media (max-width: 576px){
-  .brand-box{ height: 58px; width: 200px; }
-  .brand-logo{ height: 150px; transform: translateY(8px); }
+  .brand-box{ height: 50px; width: auto; }
+  .brand-logo{ height: 100%; transform: none}
 }
 /* --- Hero tiles band background --- */
 
